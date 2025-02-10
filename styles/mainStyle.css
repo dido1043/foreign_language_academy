@@ -93,12 +93,9 @@ li>a>img{
     height: 400px;
 }
 .card-body{
-    padding-top: 5px;
+    padding-top: 10px;
 }
-/* .form-div{
 
-    margin: 10px 5px 10px 5px;
-} */
 .footer{
     background: var(--blue);
     width: 100%;
