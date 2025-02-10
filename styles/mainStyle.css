@@ -1,0 +1,127 @@
+:root{
+    --dirty-white:#FFF5E9;
+    --white:#FFFF;
+    --light-blue:#B3EAED;
+    --blue:#331D77;
+    --orange:#fa5e36;
+}
+
+#navbarNav{
+    justify-content: end;
+    align-items: center;
+}
+#home{
+    background-color: var(--blue);
+    padding: 2px;
+    border-radius: 15px;
+}
+
+#home a{
+        color: var(--white);
+}
+.nav-item{
+    justify-content: center;
+    align-items: center;
+}
+.nav-item:hover{
+    background-color: var(--blue);
+    border-radius: 15px;
+    color: white;
+}
+.nav-item>a{
+    text-align: center;
+    align-items: center;
+}
+.nav-item>a:hover{
+    color: var(--white);
+}
+li>a>img{
+    text-align: center;
+    width: 30px;
+    height: 30px;
+}
+.carousel-item{
+    width: 100%;
+    height: 90vh
+}
+.carousel-item img {
+    filter: blur(5px) brightness(50%);
+    height: 100vh;
+    object-fit: cover;
+}
+
+.carousel-caption {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%);
+    color: white;
+    text-align: center;
+}
+
+.btn {
+    background-color: rgba(255, 255, 255, 0.2); /* Transparent button */
+    color: white;
+    border: 1px solid white;
+    padding: 10px 20px;
+    font-size: 1.2rem;
+    transition: 0.3s;
+}
+
+.btn:hover {
+    background-color: rgba(255, 255, 255, 0.4);
+}
+.btn{
+    background-color: var(--orange);
+    color: var(--white);
+    border-radius: 40px;
+    padding: 10px;
+}
+.row{
+    width: 100%;
+}
+.info-bar{
+    padding-left: 40px;
+    padding-bottom: 5px;
+}
+.img{
+    
+    border-radius:10px ;
+}
+.image-div{
+    width: 400px;
+    height: 400px;
+}
+.card-body{
+    padding-top: 5px;
+}
+/* .form-div{
+
+    margin: 10px 5px 10px 5px;
+} */
+.footer{
+    background: var(--blue);
+    width: 100%;
+}
+/*Scroll-bar*/
+
+html::-webkit-scrollbar {
+    width: 10px;
+    height: 30px;
+    overflow-x: hidden;
+}
+
+html::-webkit-scrollbar-track {
+    background: #e6e5e5;
+    border-radius: 10px;
+}
+
+html::-webkit-scrollbar-thumb {
+    background: var(--prim-color);
+    border-radius: 10px;
+}
+
+html::-webkit-scrollbar-thumb:hover {
+    background: var(--blue);
+    border-radius: 10px;
+}
