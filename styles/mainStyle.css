@@ -15,10 +15,16 @@
     padding: 2px;
     border-radius: 15px;
 }
-
-#home a{
-        color: var(--white);
+#home:hover{
+    color: var(--white);
 }
+#home a{
+    color: var(--white);
+}
+
+/* #home a:hover{
+        color: var(--white);
+} */
 .nav-item{
     justify-content: center;
     align-items: center;
@@ -32,7 +38,7 @@
     text-align: center;
     align-items: center;
 }
-.nav-item>a:hover{
+.nav-item a:hover{
     color: var(--white);
 }
 li>a>img{

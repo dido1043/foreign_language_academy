@@ -5,11 +5,27 @@
     --blue:#331D77;
     --orange:#fa5e36;
 }
-
+html,body{
+    width: 100%;
+    overflow-x: hidden;
+}
 #btn:hover{
     background-color: var(--orange);
     filter: blur(5px) brightness(50%);
 }
-.plans{
-    margin-left: 15px;
+#plans{
+    margin-left: 5px;
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    width: 100%;
+}
+.card{
+    width: 300px;
+    height: 300px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.list{
+    font-size: large;
 }
