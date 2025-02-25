@@ -9,16 +9,16 @@ document.getElementById("contact-form").addEventListener("submit", function (eve
   const templateID = "template_m266mot"; 
 
   const formData = {
-      name: document.getElementById("name").value,
-      email: document.getElementById("email").value,
-      message: document.getElementById("message").value
+    name: document.getElementById("name").value,
+    email: document.getElementById("email").value,
+    message: document.getElementById("message").value
   };
 
   emailjs.send(serviceID, templateID, formData)
       .then(() => {
-          alert("Message sent successfully!");
+        alert("Message sent successfully!");
       })
       .catch(() => {
-          alert("Failed to send message. Please try again.");
+        alert("Failed to send message. Please try again.");
       });
 });
