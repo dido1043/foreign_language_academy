@@ -1,0 +1,16 @@
+{
+    "osfdigital.wingman.knowledgeBaseSettings": {
+        "salesforceDevEnabled": false,
+        "salesforceHelpEnabled": true,
+        "indexedWorkspaceEnabled": true,
+        "omsSearchEnabled": false,
+        "composableEnabled": false,
+        "sfccEnabled": false
+    },
+    "osfdigital.wingman.workspaceIndexingSettings": {
+        "indexingState": 4,
+        "uploadedFiles": 12,
+        "indexedWorkspaceId": "70715162cfe8692878510fc875b18b81ca90ee9f740fd82d3d1666084ef3384e",
+        "indexingId": "4fed4ed2b6e627e615945e0db1409a9884a103f71fc3ad0a8a945168e85cfeaa"
+    }
+}
