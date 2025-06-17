@@ -17,6 +17,9 @@ document.getElementById("contact-form").addEventListener("submit", function (eve
   emailjs.send(serviceID, templateID, formData)
       .then(() => {
         alert("Message sent successfully!");
+        document.getElementById("name").value = '',
+        document.getElementById("email").value = '',
+        document.getElementById("message").value = ''
       })
       .catch(() => {
         alert("Failed to send message. Please try again.");
